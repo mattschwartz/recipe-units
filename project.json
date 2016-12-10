@@ -1,9 +1,14 @@
 {
-  "version": "1.0.0-*",
-  "description": "Les Measurables",
-  "dependencies": {
-    "NETStandard.Library": "1.6.0"
-  },
+    "version": "1.0.2",
+    "description": "Basic recipe units and conversions for dotnet core applications.",
+    "authors": ["Matt Schwartz"],
+    "packOptions": {
+        "projectUrl": "https://github.com/mattschwartz/recipe-units",
+        "tags": ["recipe", "units", "measurement", "dotnet", "core"]
+    },
+    "dependencies": {
+      "NETStandard.Library": "1.6.0"
+    },
     "frameworks": {
         "netstandard1.6": {
             "imports": "dnxcore50"
@@ -12,5 +17,6 @@
     "configurations": {
         "Latest": {},
         "TEST": {}
-    }
+    },
+    "supports": {}
 }
