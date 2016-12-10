@@ -1,5 +1,6 @@
 {
     "version": "1.0.2",
+    "title": "RecipeUnits",
     "description": "Basic recipe units and conversions for dotnet core applications.",
     "authors": ["Matt Schwartz"],
     "packOptions": {
