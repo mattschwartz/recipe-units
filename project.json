@@ -1,9 +1,14 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "title": "RecipeUnits",
     "description": "Basic recipe units and conversions for dotnet core applications.",
     "authors": ["Matt Schwartz"],
     "packOptions": {
+        "licenseUrl": "https://opensource.org/licenses/MIT",
+        "owners": [
+            "mattschwartz"
+        ],
+        "releaseNotes": "Added static accessors inside Volume.cs and Weight.cs for the defined Volumes and Weights, in their respective folders.",
         "projectUrl": "https://github.com/mattschwartz/recipe-units",
         "tags": ["recipe", "units", "measurement", "dotnet", "core"]
     },
