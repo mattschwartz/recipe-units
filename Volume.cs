@@ -1,9 +1,21 @@
 ﻿using System;
+using RecipeUnits.Volumes;
 
 namespace RecipeUnits
 {
     public class Volume : IUnit
     {
+        public static Cups Cups { get; } = new Cups();
+        public static Deciliters Deciliters { get; } = new Deciliters();
+        public static Gallons Gallons { get; } = new Gallons();
+        public static Gills Gills { get; } = new Gills();
+        public static Liters Liters { get; } = new Liters();
+        public static Milliliters Milliliters { get; } = new Milliliters();
+        public static Pints Pints { get; } = new Pints();
+        public static Quarts Quarts { get; } = new Quarts();
+        public static Tablespoons Tablespoons { get; } = new Tablespoons();
+        public static Teaspoons Teaspoons { get; } = new Teaspoons();
+
         public string Abbreviation { get; set; }
         public double Amount { get; set; }
         public virtual string PluralName { get; set; }

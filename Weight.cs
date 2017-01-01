@@ -1,9 +1,15 @@
 ﻿using System;
+using RecipeUnits.Weights;
 
 namespace RecipeUnits
 {
     public class Weight : IUnit
     {
+        public static Grams Grams { get; } = new Grams();
+        public static Kilograms Kilograms { get; } = new Kilograms();
+        public static Milligrams Milligrams { get; } = new Milligrams();
+        public static Pounds Pounds { get; } = new Pounds();
+
         public string Abbreviation { get; set; }
         public double Amount { get; set; }
         public virtual string PluralName { get; set; }
